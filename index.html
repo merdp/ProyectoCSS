@@ -5,29 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html con CSS</title>
+    <link rel="stylesheet"  type="text/css"href="/styles.css">
 </head>
 <body>
-    <h1>Master en CSS </h1>
+    <h1 id="titulo">Curso en CSS(estilo h1 por "id" )</h1>
+    <h1 >Título "h1" (estilo general)</h1>
     <ul>
-        <li>Inicio</li>
-        <li>Temario</li>
-        <li>Reseñas</li>
-        <li>Contacto</li>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Temario</a></li>
+        <li><a href="#">Reseñas</a></li>
+        <li><a href="#">Contacto</a></li>
     </ul>
 <div id="descripcion">
-    <h2>descripcción del curso</h2>
-<p>
+    <h2>Descripción del curso</h2>
+<p class="parrafo parrafo1"><!-- identificar una clase concreta -->
+    
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada purus. In orci mi, viverra in rhoncus ac, interdum sed nulla. Proin iaculis augue ligula, non fermentum enim condimentum sed. Morbi viverra ipsum dui, ut venenatis arcu iaculis in. Maecenas pulvinar malesuada dolor. In in arcu consequat, mattis ligula ut, lobortis elit. Ut sagittis congue ipsum vel fringilla. Donec molestie efficitur ullamcorper. Proin mollis dapibus lorem, id ultrices justo eleifend sit amet.
 
 </p>
-<p>
+<p >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada purus. In orci mi, viverra in rhoncus ac, interdum sed nulla. Proin iaculis augue ligula, non fermentum enim condimentum sed. Morbi viverra ipsum dui, ut venenatis arcu iaculis in. Maecenas pulvinar malesuada dolor. In in arcu consequat, mattis ligula ut, lobortis elit. Ut sagittis congue ipsum vel fringilla. Donec molestie efficitur ullamcorper. Proin mollis dapibus lorem, id ultrices justo eleifend sit amet.
 
 </p>
-<p>
+<p class="parrafo parrafo3">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis malesuada purus. In orci mi, viverra in rhoncus ac, interdum sed nulla. Proin iaculis augue ligula, non fermentum enim condimentum sed. Morbi viverra ipsum dui, ut venenatis arcu iaculis in. Maecenas pulvinar malesuada dolor. In in arcu consequat, mattis ligula ut, lobortis elit. Ut sagittis congue ipsum vel fringilla. Donec molestie efficitur ullamcorper. Proin mollis dapibus lorem, id ultrices justo eleifend sit amet.
 
 </p>
+</div>
+<div id="usuario">
+    <form >
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos">
+
+        <input type="submit" />
+
+    </form>
+
 </div>
 <footer>
     Todos los derechos reservados &copy; <a href="https://github.com/merdp">merdp</a>

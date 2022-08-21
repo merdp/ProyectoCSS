@@ -1,0 +1,100 @@
+/* 
+################SELECTORES #################
+*/
+
+/*Selector universal*/
+/*Estilo general a todas las etiquetas y selectores de la web*/
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+/*Selector de etiqueta*/
+/*Estilo a las etiquetas concretas del tipo indicado*/
+h1{
+    color: rgb(2, 100, 67);
+    padding: 10px;
+}
+a{
+    font-size: 18px;
+    color: green;/*color del texto*/
+    text-decoration: none;/* Sin línea inferiro del enlace*/
+    
+}
+
+/*Selector compuesto */
+/*Estilo a la etiqueta concreta dentro de otra*/
+footer  a{
+    color:blue;
+}
+
+/*Selector de id*/
+/*Seleciona un elemento concreto por su id*/
+/*Los id son únicos y no se pueden repetir*/
+/*Aplicando el mismo estilo a varias id separandolo por comas*/
+/*#descripcion,
+#titulo*/
+#descripcion{
+    border: 3px solid black;
+    padding: 15px
+}
+/*Los estilos inferiores anulan el estilo superior*/
+/*aunque hay reglas de importancia*/
+#titulo{/*estilo a etiqueta h1*/
+    background:rgb(12, 114, 80);
+    color: white;
+    padding: 10px;
+}
+
+
+/*Selector de clase*/
+/*Igual que el "id"pero para multiples selectores*/
+/*Se pueden aplicar a varias etiquetas repitiendo en nombre*/
+.parrafo{
+    font-style: italic;/*cursiva*/
+    /*text-decoration: underline;*/    /*línea por debajo del texto*/
+    font-weight: bold;/*negrita*/
+    padding: 10px;/*estilo en comun de todas las clases*/
+}
+.parrafo1, .parrafo3{
+    
+    background-color:rgb(6, 146, 165) ;
+    color: white; 
+   
+  }
+.parrafo3{
+    background-color:rgb(171, 147, 226) ;
+    color: black;
+ }
+  
+ 
+/*Selector de atributo*/
+/*Normalmente en formularios*/
+
+#usuario form{/*Estilo a un aetiqueta concreta dentro de otra*/
+    border: 3px solid rgb(102, 50, 145);/*borde todo alrededor*/
+    margin-top: 15px;/*margen de arriba*/
+    margin-bottom: 15px;/*margen de abajo*/
+    padding: 20px;/*separación con los bordes exteriores*/
+}
+/*Cambiar la ubicación de los elementos*/
+#usuario form *{/*estilo general a  todoslos elementos del formulario con "*"*/
+/*con "display"organización en línea un elemento al lado de otro*/
+display:block;/*con "block" el elemento tendra toda la línea completa de forma independiente*/
+}
+
+input[type="text"]{ /*elementos cuyos atributos sean algo concreto*/
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+input[type="submit"]{ 
+   background: green;
+   color: white;
+   padding: 15px;
+   font-size: 15px;
+   text-transform: uppercase;/*cambiar de mayuscula a miniscula y biceversa*/
+   border: 1px black;
+   cursor: pointer;/*se convierte al pasar en una manita*/
+
+}
