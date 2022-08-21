@@ -15,8 +15,9 @@ h1{
     color: rgb(2, 100, 67);
     padding: 10px;
 }
-a{
-    font-size: 18px;
+a{ 
+   
+   font-size: 18px;
     color: green;/*color del texto*/
     text-decoration: none;/* Sin línea inferiro del enlace*/
     
@@ -98,3 +99,13 @@ input[type="submit"]{
    cursor: pointer;/*se convierte al pasar en una manita*/
 
 }
+/*Selector de hijo*/
+/* dentro del "id" justo el elemento siguiente al simbolo indicado con ">"*/
+#menu > li > a{
+    font-size: 18px;
+    color: rgb(28, 0, 128);
+    text-decoration: none;
+     
+}
+
+
