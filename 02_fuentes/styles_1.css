@@ -1,11 +1,30 @@
+
+/*Para importar una fuente */
+@font-face{
+        font-family: DynaPuff_Condensed-SemiBold_Custom;
+        src: url(/02_fuentes/fonts/static/DynaPuff_SemiCondensed/DynaPuff_SemiCondensed-SemiBold.ttf);
+
+}
+
 h1{
     font-family:Arial, Helvetica, sans-serif;
     font-style: italic;
+
+    /*COLORES*/
+    /*Colores  del sistema*/
+    color: mediumpurple;
+    /*Colores  hexadecimales*/
+    color: #000000;
+    /*Colores  RGB*/
+    color: rgb(6, 177, 106);
+    /*Colores  RGBA*/
+    color: rgb(49, 121, 80, 1);
 }
 h3{
-    font-family: "comic Sans MS";
+    font-family: DynaPuff_Condensed-SemiBold_Custom;
     font-size: 25px;
     font-weight:lighter;
+    color: olive;
 }
 p{
     font-family:  sans-serif;
