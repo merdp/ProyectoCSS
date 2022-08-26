@@ -52,9 +52,18 @@
 #lateral{
     float: left;
     width: 30%;
-   border: 1px solid rgb(87, 23, 4);
-    min-height: 500px;
+    border: 1px solid rgb(87, 23, 4);
+    min-height: 500px;/*altura mínima*/
+    max-height: 650px;/*altura máxima*/
     text-align: center;
+    /*overflow: hidden; todo lo que se salga fuera de la caja desaparece*/
+    overflow-y: scroll;/*permite el desplazamiento solo vertical del texto*/
+}
+.plateral{
+    padding: 5px;
+    text-align: justify;
+    /*text-indent:15px ;/*separación entre dos parrafos*/
+    text-indent:  20px ;/*separación entre dos parrafos*/
 }
 #contenido > h1{
     text-align: center;
@@ -65,6 +74,7 @@
 }
 #contenido .caja-impar, 
 .caja-par{
+    
     width: 40%;
     height: 250px;
     background-color: rgb(144, 200, 223);
@@ -97,4 +107,29 @@
     color: #444;
     /*border-top: 1px solid #ccc;    */
 
+}
+
+.libre{   
+    
+    position: absolute;/*modifica la posición por defecto de los elemenos*/
+    top: 300px;/*la coloco arriba del todo independiente del resto de elementos*/
+    left:50%;/*mueve el elemento el % indicado desde la izquierda*/
+   
+    
+    border: 1px solid black;
+    background-color: rgb(128, 0, 0);
+    color:white;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+
+}
+.libre1{    
+     z-index: 1;  /*Posicionaiento adelante o detras*/  
+}
+.libre2{          
+    background-color: rgb(18, 59, 2);
+    top: 270px;
+    left:52%; 
+    z-index: 2;     
 }
