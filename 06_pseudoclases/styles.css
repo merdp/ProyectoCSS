@@ -1,0 +1,59 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+
+}
+ul li{
+    font-size: 20px;
+}
+
+
+ul li:first-child{/*primer hijo de la lista*/
+color: purple;
+font-weight: bold;
+}
+
+ul li:nth-child(2){/*Elijo yo el elemento */
+    color: rgb(0, 128, 0);
+    font-weight: bold;
+}
+ul li:last-child{/*Último  elemento */
+    color: orange;
+    font-weight: bold;
+}
+  
+ #enlace {
+    font: size 30px;
+    color: rgb(172, 26, 167); 
+} 
+
+#enlace:link {/*color antes de clicar el enlace*/
+ color: red;
+}
+#enlace:visited {/*color al visitar el enlace*/
+    color: rgb(97, 7, 97);
+}
+
+#enlace:hover{/*Cuando PASO por encima*/
+    color:blue;
+}
+#enlace:active{/*Cuando PRESIONO encima*/
+    color:green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#enlace:focus{/*Cuando paso por encima*/
+    color:blue;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+input[type="text"]:focus{/*Cambia el estilo justo al estar dentro*/
+    border: 4px dashed rgb(231, 70, 21)
+
+
+
+
+
+
+  
