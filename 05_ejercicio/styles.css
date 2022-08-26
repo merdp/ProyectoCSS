@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+  text-decoration: none;
+  }
+#cajaPral{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;   
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background: rgb(33, 98, 184);
+    color:white;
+    text-align: center;
+    line-height: 90px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+#menu{
+    background-color: #eee;
+}
+#menu ul li{
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    
+    border-right: 1px solid #ccc;
+}
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+#menu ul li:hover {/*pseudoclase que actua al pasar por encima */
+    background:fixed rgb(2, 29, 65);
+    cursor: pointer;
+}
+#menu ul li a:hover{
+   
+    color: white;
+}
+#contenido{
+    float: left;
+    width: 69%;
+   /*border: 1px solid green;*/
+}
+#lateral{
+    float: left;
+    width: 30%;
+   border: 1px solid rgb(87, 23, 4);
+    min-height: 500px;
+    text-align: center;
+}
+#contenido > h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+}
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: rgb(144, 200, 223);
+    border:5px solid rgb(95, 118, 128);
+    color: white;
+    float : left;
+    margin: 20px;
+    margin-left: 40px;
+}
+#footer{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background: #eee;
+    text-align: center;
+    color: #444;
+    /*border-top: 1px solid #ccc;    */
+
+}

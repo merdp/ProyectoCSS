@@ -1,0 +1,34 @@
+body{
+    background-color: #ccc;
+    /*
+    background-image: url(/03_fondos/img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;/*scroll solo texto sin mover la imagen
+    background-position:left bottom;
+    */
+    text-align: justify;
+    text-indent:15px ;/*separación entre dos parrafos*/
+   /* 
+   word-spacing: 5px;/*separación entre palabras
+    letter-spacing: 1px;/*separación entre letras
+    */
+    color:black;
+}
+#caja{
+    
+    padding: 10px;
+    background-color: rgb(83, 129, 228);
+    color: white;
+    text-align: center;
+    line-height: 50px;/*Ajustar la altura entre dos líneas*/
+    text-transform: uppercase;
+    text-decoration:overline;/*línea sobre texto*/
+   
+}
+h2{
+    color: rgb(109, 6, 245);
+    background-image: url(/03_fondos/img/patron1.png);
+    /*border: 3px solid rgb(48, 2, 250);*/
+    padding: 10px;
+}

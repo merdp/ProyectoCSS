@@ -1,0 +1,20 @@
+
+*******Ejercicio completo con HTML y CSS********
+____________________________________________________
+
+1. Crear un documento HTML y vincularlo con un CSS
+2.  Crear una estructura HTML con
+                Un conterenedor general
+                Una cabecera
+                Un menú
+                Una barra lateral
+                Sección de contenido pral
+                Elemntos dentro del pral
+                Un footer.
+3.Todo el contenido dentro del contenedor de ancho 1200px y centrado
+4.Header ancho 100% con un texto grande centrado
+5. Menu con los elementos uno al lado del otro
+6. EL contenido proal con ancho del 69%
+7. El contenido del contenedor pral sera una cuadricula con 4 lineas de 2 cajas
+8. Barra lateral ancho 30%
+9. Footer ancho 100% del div que l contiene y estar abajo del todo
