@@ -50,6 +50,7 @@ input[type="text"]{
 }
 input[type="text"]:focus{/*Cambia el estilo justo al estar dentro*/
     border: 4px dashed rgb(231, 70, 21)
+}
 
 
 
