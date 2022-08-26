@@ -61,16 +61,32 @@
     border-bottom: 1px solid #ccc;
     padding: 15px;
     color: #444;
+    text-shadow: 10px 10px 3px rgb(177, 177, 238);/*sombra eje X, Y difuninado y color sombra*/ 
 }
-#contenido .caja{
+#contenido .caja-impar, 
+.caja-par{
     width: 40%;
     height: 250px;
     background-color: rgb(144, 200, 223);
-    border:5px solid rgb(95, 118, 128);
+    /*border:5px solid rgb(95, 118, 128);*/
     color: white;
     float : left;
     margin: 20px;
     margin-left: 40px;
+    text-align: center;
+    line-height: 250px;
+    color:#444;
+    text-transform: uppercase;    
+}
+#contenido .caja-impar{
+    
+    box-shadow: 15px 15px 10px grey;/*sombra exteriorterior*/
+    border-radius: 50px 10px 4px 60px ;/*redondea los bordes*/
+}
+#contenido .caja-par{
+   
+    box-shadow: 15px 15px 10px grey;/*sombra exteriorterior*/
+    border-radius: 10px 50px 60px 4px ;/*redondea los bordes*/
 }
 #footer{
     width: 100%;
